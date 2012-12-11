@@ -45,3 +45,23 @@ rm -rf $RPM_BUILD_ROOT
 %_datadir/openclass/
 %_datadir/applications/openclass-student.desktop
 %_datadir/applications/openclass-teacher.desktop
+
+
+%changelog
+* Mon Jun 27 2011 Eugeni Dodonov <eugeni@mandriva.com> 0.4-1mdv2011.0
++ Revision: 687600
+- New version 0.4.
+
+* Thu Jun 02 2011 Eugeni Dodonov <eugeni@mandriva.com> 0.3-1
++ Revision: 682418
+- New version 0.3
+
+* Mon May 30 2011 Eugeni Dodonov <eugeni@mandriva.com> 0.2-1
++ Revision: 681968
+- Updated to 0.2
+
+* Sat May 28 2011 Eugeni Dodonov <eugeni@mandriva.com> 0.1-1
++ Revision: 680789
+- Imported to cooker upon requests.
+- Created package structure for openclass.
+
