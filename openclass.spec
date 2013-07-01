@@ -1,4 +1,4 @@
-Summary:	OpenClass is a simple open-source solution for class control
+Summary:	Simple open-source solution for class control
 Name:		openclass
 Version:	0.4
 Release:	%mkrel 1
