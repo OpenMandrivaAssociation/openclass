@@ -1,12 +1,11 @@
 Summary:	Simple open-source solution for class control
 Name:		openclass
 Version:	0.4
-Release:	%mkrel 1
+Release:	2
 Source0:	%name-%version.tar.bz2
 License:	GPLv2
 Group:		Networking/Other
 Url:		https://github.com/eugeni/openclass
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: python-devel
 BuildArch: noarch
 Requires:  python
@@ -29,16 +28,13 @@ work, you already know what OpenClass is.
 %build
 
 %install
-rm -rf $RPM_BUILD_ROOT
 %makeinstall_std
 %find_lang %name
 
 
 %clean
-rm -rf $RPM_BUILD_ROOT
 
 %files -f %{name}.lang
-%defattr(-,root,root) 
 %doc README
 %_bindir/openclass-student
 %_bindir/openclass-teacher
