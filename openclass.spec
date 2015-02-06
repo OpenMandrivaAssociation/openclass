@@ -1,7 +1,7 @@
 Summary:	Simple open-source solution for class control
 Name:		openclass
 Version:	0.4
-Release:	2
+Release:	3
 Source0:	%name-%version.tar.bz2
 License:	GPLv2
 Group:		Networking/Other
